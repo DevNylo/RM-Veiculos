@@ -13,6 +13,11 @@ header{
     max-width: 1020px;
     margin: 0 auto;
     width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 header nav{
@@ -20,11 +25,6 @@ header nav{
     width: 100%;
     margin: 0 auto;
     padding: 20px 0;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
 }
 
 header nav img{
@@ -141,29 +141,13 @@ main.menu div ul li a{
 
 nav.menu-mobile{
     display: none;
-    float: right;
     width: 32px;
     height: 32px;
     background-size: 100% 100%;
+    background-image: url(../IMG/icon-mobile.gif);
     cursor: pointer;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* RESPONSIVO */
 
@@ -176,6 +160,10 @@ nav.menu-mobile{
         top: 50;
         left: 0;
     }
+    nav.menu-desktop{
+        display: none;
+    }
+
     nav.menu-mobile{
         display: block;
     }
