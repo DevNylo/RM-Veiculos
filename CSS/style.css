@@ -139,15 +139,22 @@ main.menu div ul li a{
 
 /*-----MENU MOBILE-----*/
 
-nav.menu-mobile{
-    display: none;
-    width: 32px;
-    height: 32px;
-    background-size: 100% 100%;
-    background-image: url(../IMG/icon-mobile.gif);
-    cursor: pointer;
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* RESPONSIVO */
 
@@ -160,10 +167,6 @@ nav.menu-mobile{
         top: 50;
         left: 0;
     }
-    nav.menu-desktop{
-        display: none;
-    }
-
     nav.menu-mobile{
         display: block;
     }
