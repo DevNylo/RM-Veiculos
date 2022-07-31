@@ -73,8 +73,7 @@ main.menu div ul{
 main.menu div ul li{
     margin: 20px;
     padding: 15px 10px;
-    border-radius: 0 50px 50px 0;
-    
+    border-radius: 10px 0 10px 0;
 }
 
 main.menu div ul li a{
@@ -136,6 +135,36 @@ main.menu div ul li a{
     background-color: #ccc;
 }
 /*----------------------*/
+
+
+/*-----MENU MOBILE-----*/
+
+nav.menu-mobile{
+    display: none;
+    float: right;
+    width: 32px;
+    height: 32px;
+    background-size: 100% 100%;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* RESPONSIVO */
 
 @media screen and (max-width: 768px){
@@ -146,6 +175,9 @@ main.menu div ul li a{
     main.menu div{
         top: 50;
         left: 0;
+    }
+    nav.menu-mobile{
+        display: block;
     }
     
 }
