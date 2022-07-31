@@ -13,11 +13,6 @@ header{
     max-width: 1020px;
     margin: 0 auto;
     width: 100%;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
 }
 
 header nav{
@@ -25,6 +20,11 @@ header nav{
     width: 100%;
     margin: 0 auto;
     padding: 20px 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 header nav img{
