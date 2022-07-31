@@ -42,6 +42,7 @@ header nav ul li a{
 }
 
 main.menu{
+    position: relative;
     background-color: #000;
     width: 100%;
     height: 600px;
@@ -50,4 +51,26 @@ main.menu{
     background-repeat: no-repeat;
 
 }
+
+main.menu div{
+    position: absolute;
+    color: white;
+
+    top: 100px;
+    left: 100px;
+}
+
+main.menu div ul{
+    list-style: none;
+
+}
+
+main.menu div ul li{
+    font-weight: 600;
+    margin: 20px;
+    padding: 10px 15px;
+    background-color: red;
+    
+}
+
 
