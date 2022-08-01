@@ -149,14 +149,11 @@ section.veiculos-destaque{
 }
 
 section.veiculos-destaque .container{
-	/*Vamos deixar o padrão que é 1400px*/
-	/*max-width: 1000px;*/
 	padding:40px 0;
 }
 
 
 .line-titulo{
-	/*Trocamos por 1400 para seguir com o mesmo tamanho do nosso contexto padrão da classe container!*/
 	max-width: 1400px;
 	margin:0 auto;
 	position: relative;
