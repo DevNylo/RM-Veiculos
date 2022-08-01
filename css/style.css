@@ -28,10 +28,14 @@ header div.logo{
 	float: left;
 }
 
+header div.logo img{
+	width: 150px;
+}
+
 header nav.desktop{
 	float: right;
 	position: relative;
-	top:40px;
+	top:20px;
 }
 
 nav.mobile{
